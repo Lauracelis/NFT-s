@@ -17,15 +17,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.comp2, .comp3{
+    padding: 4rem 5rem;
+}
 
 .comp2{
-    padding: 4rem 5rem;
     background-color: var(--bg-color-some-card);
+}
+.comp3{
+    background-color: var(--bg-color);
 }
 
 #sol{
     color: var(--text-color-pink);
     margin-right: 10px;
+}
+#fire{
+    color: yellow;
 }
 .seccion-card{
     display: flex;
@@ -81,21 +89,31 @@
     font-size: 100%;
 }
 
-.contenedor-card{
+.contenedor-card,.contenedor-card2 {
     width: 100%;
+    border-radius: 2rem 2rem 0px 0px;
 }
 .contenedor-card{
     background-color: var(--bg-color);
-    border-radius: 2rem 2rem 0px 0px;
+}
+.contenedor-card2{
+    background-color: var(--bg-color-some-card);
 }
 .contenedor-final-card{
     background-color: var(--bg-color);
+    border-top: 3px solid var(--bg-color-some-card);
+}
+.contenedor-final-card2{
+    background-color: var(--bg-color-some-card);
+    border-top: 3px solid var(--bg-color);
+}
+
+.contenedor-final-card,.contenedor-final-card2 {
     border-radius: 0px 0px 2rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-    border-top: 3px solid var(--bg-color-some-card);
 }
 .card-titulo{
     color: var(--text-color-white);
@@ -119,12 +137,20 @@
     padding: 0px 2rem;
 }
 .place-bid{
+    background-color: var(--bg-color);
+}
+.place-bid2{
+    background-color: var(--bg-color-some-card);
+}
+
+
+.place-bid, .place-bid2{
+    color: var(--text-color-white);
     width: 110px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-color);
     border: 1px solid var(--text-color-white);
     border-radius: 2rem;
 }
@@ -133,11 +159,22 @@
     align-items: flex-end;
     justify-content: center;
 }
-.info-adicional p{
+.info-adicional2{
+    color: var(--text-color-white);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#heart{
+    color: var(--text-color);
+    margin-right: 2px;
+}
+.info-adicional p, .info-adicional2 p{
     font-family: var(--body-font);
     font-size: 80%;
 }
-.place-bid p{
+.place-bid p, .place-bid2 p{
     margin-top: 10px;
     font-family: var(--body-font);
     font-size: 60%;
