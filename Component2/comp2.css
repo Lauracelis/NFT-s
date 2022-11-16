@@ -1,0 +1,146 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+    --bg-color-some-card:#142442;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comp2{
+    padding: 4rem 5rem;
+    background-color: var(--bg-color-some-card);
+}
+
+#sol{
+    color: var(--text-color-pink);
+    margin-right: 10px;
+}
+.seccion-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flecha{
+    background-color: var(--bg-color-some-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.3rem;
+}
+.cont-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.live-action{
+    color: var(--text-color-white);
+    font-family: var(--title-font);
+    font-size: 220%;
+}
+/*Card config*/
+.card-particular{
+    margin-top: 1rem;
+}
+.card-img img{
+    width: 100%;
+    height: 50%;
+    border-radius: 2rem 2rem 0px 0px;
+}
+.card-second-img{
+    padding-left: 2rem;
+}
+
+.card-second-img img{
+    margin-top: -2rem;
+    margin-right: -1.6rem;
+    width: 3rem;
+    height: 3rem;
+}
+.card-titulo h2{
+    margin-top: 10px;
+    font-family: var(--title-font);
+    font-size: 100%;
+}
+
+.contenedor-card{
+    width: 100%;
+}
+.contenedor-card{
+    background-color: var(--bg-color);
+    border-radius: 2rem 2rem 0px 0px;
+}
+.contenedor-final-card{
+    background-color: var(--bg-color);
+    border-radius: 0px 0px 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-top: 3px solid var(--bg-color-some-card);
+}
+.card-titulo{
+    color: var(--text-color-white);
+}
+.datos-importantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--body-font);
+    font-size: 80%;
+}
+
+.datos-importantes h3{
+    color: var(--text-color-pink);
+    font-size: 100%;
+}
+.datos-importantes p, .place-bid, .info-adicional p {
+    color: var(--text-color-white);
+}
+.card-titulo, .datos-importantes{
+    padding: 0px 2rem;
+}
+.place-bid{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color-white);
+    border-radius: 2rem;
+}
+.info-adicional{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.info-adicional p{
+    font-family: var(--body-font);
+    font-size: 80%;
+}
+.place-bid p{
+    margin-top: 10px;
+    font-family: var(--body-font);
+    font-size: 60%;
+}
+
+
