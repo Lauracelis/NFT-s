@@ -17,11 +17,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.comp2, .comp3{
+.comp2, .comp3, .comp4{
     padding: 4rem 5rem;
 }
 
-.comp2{
+.comp2, .comp4{
     background-color: var(--bg-color-some-card);
 }
 .comp3{
@@ -34,6 +34,12 @@
 }
 #icon-fire{
     color: yellow;
+}
+#icon-arrow-down{
+    color: var(--text-color-pink);
+}
+#icon-start{
+    color: var(--text-color-pink);
 }
 .seccion-card{
     display: flex;
@@ -61,6 +67,11 @@
 
 .live-action{
     color: var(--text-color-white);
+    font-family: var(--title-font);
+    font-size: 220%;
+}
+.live-action2{
+    color: var(--text-color-pink);
     font-family: var(--title-font);
     font-size: 220%;
 }
@@ -96,7 +107,7 @@
 .container-card{
     background-color: var(--bg-color);
 }
-.contenedor-card2{
+.container-card2{
     background-color: var(--bg-color-some-card);
 }
 .container-end-card{
@@ -180,4 +191,45 @@
     font-size: 60%;
 }
 
+/*Card config comp4*/
+.container-card-comp4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 2rem 2rem;
+    background-color: var(--bg-color);
+}
+.container-sub-card{
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3rem;
+    width: 80%;
+    border-radius: 1rem 1rem;
+    background-color: var(--bg-color-some-card);
+}
 
+.comp4__card-second-img img{
+    margin-top: -4.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+.card-info-adittional{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#card-info-adittional__p-first{
+    color: var(--text-color);
+}
+#card-info-adittional__p-second{
+    color: var(--text-color-pink);
+}
+.revenant{
+    padding: 1rem 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
