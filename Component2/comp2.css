@@ -28,11 +28,11 @@
     background-color: var(--bg-color);
 }
 
-#sol{
+#icon-sun{
     color: var(--text-color-pink);
     margin-right: 10px;
 }
-#fire{
+#icon-fire{
     color: yellow;
 }
 .seccion-card{
@@ -40,7 +40,7 @@
     flex-direction: row;
     align-items: center;
 }
-.flecha{
+.btn-arrow{
     background-color: var(--bg-color-some-card);
     border: 1px solid var(--border-color);
     color: var(--text-color-white);
@@ -83,42 +83,42 @@
     width: 3rem;
     height: 3rem;
 }
-.card-titulo h2{
+.card-title h2{
     margin-top: 10px;
     font-family: var(--title-font);
     font-size: 100%;
 }
 
-.contenedor-card,.contenedor-card2 {
+.container-card,.container-card2 {
     width: 100%;
     border-radius: 2rem 2rem 0px 0px;
 }
-.contenedor-card{
+.container-card{
     background-color: var(--bg-color);
 }
 .contenedor-card2{
     background-color: var(--bg-color-some-card);
 }
-.contenedor-final-card{
+.container-end-card{
     background-color: var(--bg-color);
     border-top: 3px solid var(--bg-color-some-card);
 }
-.contenedor-final-card2{
+.container-end-card2{
     background-color: var(--bg-color-some-card);
     border-top: 3px solid var(--bg-color);
 }
 
-.contenedor-final-card,.contenedor-final-card2 {
+.container-end-card,.container-end-card2 {
     border-radius: 0px 0px 2rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
-.card-titulo{
+.card-title{
     color: var(--text-color-white);
 }
-.datos-importantes{
+.important-data{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -126,14 +126,14 @@
     font-size: 80%;
 }
 
-.datos-importantes h3{
+.important-data h3{
     color: var(--text-color-pink);
     font-size: 100%;
 }
-.datos-importantes p, .place-bid, .info-adicional p {
+.important-data p, .place-bid, .info-additional p {
     color: var(--text-color-white);
 }
-.card-titulo, .datos-importantes{
+.card-title, .important-data{
     padding: 0px 2rem;
 }
 .place-bid{
@@ -154,23 +154,23 @@
     border: 1px solid var(--text-color-white);
     border-radius: 2rem;
 }
-.info-adicional{
+.info-additional{
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
-.info-adicional2{
+.info-additional2{
     color: var(--text-color-white);
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
-#heart{
+#icon-heart{
     color: var(--text-color);
     margin-right: 2px;
 }
-.info-adicional p, .info-adicional2 p{
+.info-additional p, .info-additional2 p{
     font-family: var(--body-font);
     font-size: 80%;
 }
