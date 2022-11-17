@@ -1,0 +1,47 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+    --bg-color-some-card:#142442;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: var(--bg-color);
+}
+.row-comp{
+    padding: 4rem 5rem;
+}
+.btn-social-network button{
+    width: 2.5rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    background-color: var(--bg-color-some-card) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    margin-right: 5px;
+}
+.btn-social-network{
+    display: flex;
+    flex-direction: row;
+}
+.btn-social-network button img{
+    width: 1rem;
+    height: 1rem;
+}
+.footer-info p{
+    color: var(--text-color-white)
+}

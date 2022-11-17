@@ -233,3 +233,9 @@
     color: var(--text-color);
     text-align: center;
 }
+.comp4 p{
+    font-family: var(--body-font);
+}
+.comp4 h1{
+    font-family: var(--title-font);
+}
