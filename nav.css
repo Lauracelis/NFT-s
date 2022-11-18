@@ -1,0 +1,69 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+    --bg-color-some-card:#142442;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background-color: var(--bg-color);
+    font-family: var(--body-font);
+}
+
+.menu-principal{
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+
+.btn-search{
+    border: 0.5px solid var(--border-color);
+    border-radius: 10rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.input-form-control{
+    background-color:transparent ;
+    border: none;
+}
+.active{
+    color: var(--text-color-pink) !important; 
+}
+.nav-link{
+    color: var(--text-color-white);
+}
+/*Revisar Si hay tiiempo*/
+.nav-link:hover{
+    color: var(--text-color-pink);
+}
+.justify-content-end{
+    margin-left: 15rem;
+}
+
+.btn-create{
+    background: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    color: var(--text-color-white);
+    border-radius: 3rem;
+    width:8.5rem;
+    font-family: var(--title-font);
+    font-size: 0.9rem;
+}

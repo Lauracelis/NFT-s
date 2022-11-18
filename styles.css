@@ -12,11 +12,7 @@
   --title-font: "Lexend", sans-serif;
   --body-font: "Roboto", sans-serif;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .compRegister{
   border-top: 1px solid var(--border-color);
   background-color: var(--bg-color-some-card) ;
@@ -50,4 +46,7 @@ label{
   border: none;
   font-family: var(--title-font);
   font-weight: 700;
+}
+.form-registro-col{
+  margin-top: 2px;
 }
