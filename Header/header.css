@@ -68,6 +68,8 @@ header{
     font-family: var(--title-font);
     font-size: 0.9rem;
 }
+
+
 .create-icon{
     padding: 0.5rem;
 }
@@ -126,6 +128,8 @@ header{
     letter-spacing: 5px;
     font-weight: 700;
 }
+
+/*banner-content__h1*/
 h1{
     font-size: 72px;
     margin-bottom: 42px;
@@ -141,9 +145,11 @@ h1{
     font-size: 0.9rem;
     padding: 0.8rem;
 }
+
 .btn-discover>img{
     margin-right: 0.5rem;
 }
+/*cont-section*/
 .container-fluid{
     max-width: 100%;
     padding: 5rem;
@@ -171,6 +177,8 @@ h1{
 option:hover{
     color: green;
 }
+
+/*section-row*/
 .row{
     margin-top: 2rem;
     overflow: hidden;
@@ -184,6 +192,7 @@ option:hover{
     background-color:#142442 ;
     border-radius: 1rem;
 }
+/*#a*/
 a{
     text-decoration: none;
     color: var(--text-color-white);
