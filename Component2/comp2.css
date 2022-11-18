@@ -300,3 +300,23 @@
 .comp4 h1{
     font-family: var(--title-font);
 }
+/** Hover**/
+.comp4__card-second-img img:hover, .card-second-img img:hover{
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px var(--text-color-white);
+}
+
+
+.container-card-comp4:hover, .container-card:hover,.container-end-card:hover, .container-card2:hover , .container-end-card2:hover {
+    box-shadow: 5px 5px 5px var(--text-color-white);
+}
+.place-bid2:hover, .place-bid:hover, .btn-arrow:hover{
+    background: var(--bg-button);
+    box-shadow: 2px 2px 2px var(--text-color-white);
+}
+
+.place-bid2:hover, .place-bid:hover, .cont-btn-1 button:hover{
+    background: var(--bg-button);
+    color: var(--text-color-white);
+}
+
