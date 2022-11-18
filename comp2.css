@@ -18,7 +18,9 @@
     box-sizing: border-box;
     
 }
-
+body{
+    background-color: var(--bg-color);
+}
 .comp2, .comp3, .comp4{
     padding: 4rem 5rem;
 }
