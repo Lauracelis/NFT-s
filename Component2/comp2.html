@@ -14,6 +14,13 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <title>Document</title>
     <link rel="stylesheet" href="comp2.css">
 </head>
@@ -182,7 +189,7 @@
     <!--Contenedor Tercer Componente-->
     <div class="container-fluid comp3">
         <div class="row  row-comp">
-            <div class="col seccion-card" id="card-comp3">
+            <div class="col-xl-3 col-lg-12 col-md-4 col-sm-12 seccion-card" id="card-comp3">
                 <span class="material-symbols-outlined" id="icon-fire">
                     local_fire_department
                 </span>
@@ -190,18 +197,47 @@
                     Feeds
                 </h1>
             </div>
-            <div class="col cont-btn">
-                <button class="btn-arrow">
-                    <span class="material-symbols-outlined ">
-                        chevron_left
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5 cont-btn-1">
+                <button>
+                    <p>FOLLOWING</p>
+                    <span class="material-symbols-outlined" id="icon-arrow-down1">
+                        expand_more
                     </span>
                 </button>
-                <br>
-                <button class="btn-arrow">
-                    <span class="material-symbols-outlined">
-                        chevron_right
-                    </span>
-                </button>
+            </div>
+            <div class="col-xl-7 col-lg-9 col-md-5 col-sm-7 cont-menu">
+                <nav class="navbar navbar-expand-lg menu">
+                    <div class="container-fluid container-date-nav">
+                      <a class="navbar-brand all" href="#">ALL</a>
+                      <button class="navbar-toggler btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-dark"></span>
+                      </button>
+                      <div class="navbar-collapse collapse show" id="navbarNav" style="">
+                        <ul class="navbar-nav">
+                          <li class="nav-item item">
+                            <a class="nav-link" href="#">ARTWORK</a>
+                          </li>
+                          <li class="nav-item item">
+                            <a class="nav-link" href="#">PHOTOGRAPHY</a>
+                          </li>
+                          <li class="nav-item item">
+                            <a class="nav-link" href="#">GAMES</a>
+                          </li>
+                          <li class="nav-item item">
+                            <a class="nav-link ">DOMAIN</a>
+                          </li>
+                          <li class="nav-item item">
+                          <a class="nav-link ">MEMES</a>
+                        </li>
+                        <li class="nav-item item btn-final-nav">
+                        <a class="nav-link "><span class="material-symbols-outlined">
+                            visibility
+                            </span>&nbspVIEW ALL</a>
+                      </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
 

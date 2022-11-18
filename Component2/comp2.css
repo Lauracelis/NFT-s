@@ -190,6 +190,62 @@
     font-family: var(--body-font);
     font-size: 60%;
 }
+/*Card config comp3*/
+.cont-btn-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cont-btn-1 button{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    background-color: var(--bg-color-some-card);
+    height: 40px;
+    padding: 0.3rem 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border-radius: 60px;
+    font-family: var(--body-font);
+    font-size: 80%;
+}
+.cont-btn-1 button p{
+    margin-top: 14px;
+}
+.all{
+    font-family: var(--body-font);
+    font-size: 80%;
+    background-color: var(--bg-color-some-card);
+    color: var(--text-color-pink);
+    border-radius: 20px;
+    border: 2px solid var(--text-color-pink);
+    padding: 0.3rem 1rem;
+}
+
+.btn-menu{
+    background-color: var(--bg-color-some-card);
+    border-radius: 20px;
+    padding: 0.1rem 0.8rem;
+    border: 2px solid var(--text-color-pink);
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item a{
+    padding: 0.3rem 1rem;
+    font-family: var(--body-font);
+    font-size: 80%;
+    color: var(--text-color-white);
+    display: flex;
+    align-items: center;
+}
+.btn-final-nav{
+    background: var(--bg-button);
+    border-radius: 20px;
+}
+
 
 /*Card config comp4*/
 .container-card-comp4 {

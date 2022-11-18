@@ -103,6 +103,7 @@ footer{
     margin-right: 10px;
 }
 
+
 @media screen and (min-width:280px) and (max-width:580px){
     .section__picture{
         width: 100%;
