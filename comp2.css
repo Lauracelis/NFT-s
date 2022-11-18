@@ -319,7 +319,76 @@
     background: var(--bg-button);
     color: var(--text-color-white);
 }
-
+/****************** cards top ccollections***********/
+.col-lg-8{
+    margin: 2rem;
+    margin-left: 5rem;
+}
+.row-card{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 3rem;
+}
+.text{
+    color:var(--text-color-white);
+    font-family: var(--title-font);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.select{
+    color: var(--text-color-pink);
+    background-color: transparent;
+    font-size: 36px;
+    border: none;
+    font-family: var(--title-font);
+    margin-left: 1rem;
+}
+.select option{
+    color: var(--title-color);
+    font-size: 1.4rem;
+}
+option:hover{
+    color: green;
+}
+.row{
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.single-collection{
+    max-width: 20rem;
+    margin: 0.4rem;
+    padding: 16px 23px;
+    display: flex;
+    justify-content: flex-start;
+    background-color:#142442 ;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color-white);
+}
+a:hover{
+    color: var(--text-color-pink);
+}
+.collection-img{
+    min-width: 18%;
+    margin-right: 1px;
+}
+.collection-img>img{
+    height: 3rem;
+}
+.bambooz{
+    border-radius: 2rem;
+}
+.content>h5 {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+.content>span{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
 /****************** cards create********************/
 .col-12{
     margin-top: 5rem;
