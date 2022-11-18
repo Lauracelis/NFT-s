@@ -16,7 +16,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 .comp2, .comp3, .comp4{
     padding: 4rem 5rem;
 }
@@ -392,7 +394,7 @@ a:hover{
 /****************** cards create********************/
 .col-12{
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .row-cards{
     margin: 5rem;
