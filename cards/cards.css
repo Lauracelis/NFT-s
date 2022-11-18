@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+}
+.row{
+    width:100%;
+    padding-right: -26rem;
+}
+
+.col-xl-3, .col-lg-4, .col-md-6{
+    background-color: #142442;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right:2rem ;
+    margin-top: 2rem;
+    
+}
+.text{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.selling-process{
+    margin-bottom: 1rem;
+    padding: 45px 30px 40px;
+    width: 100%;
+}
+.section-title, h5{
+    font-family: var(--title-font);
+    color: var(--text-color-white);
+    text-align: center;
+    font-weight: 700;
+}
+p{
+    color: rgb(170, 170, 170);
+    font-family: var(--body-font);
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+}

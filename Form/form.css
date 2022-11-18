@@ -1,0 +1,73 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+  --bg-color-some-card:#142442;
+
+}
+body{
+    background-color: var(--bg-color);
+}
+
+.email{
+background-color: var(--bg-color-some-card);
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.email-content{
+    color: var(--text-color-white);
+    font-family: var(--title-font);
+}
+.email-content>h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.email-content>p{
+    font-weight: 500;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;  
+}
+.form-control{
+    display: block;
+    background-clip: padding-box;
+    line-height: 1.5;
+    appearance: none;
+    background-color: var(--text-color-white);
+    border-radius: 3rem;
+    height: 4rem;
+    width: 100%;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out ;
+}
+.btn{
+    background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%);
+    font-size: 16px;
+    padding: 21px 35px;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    color: var(--text-color-white);
+    font-family: var(--title-font);
+    border-radius: 3rem;
+    white-space: no-wrap;
+    
+}
+button, input{
+    overflow: visible;
+    cursor: pointer;
+}

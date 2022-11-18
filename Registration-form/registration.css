@@ -1,0 +1,47 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+.row{
+    padding: 4rem;
+    background-color: var(--bg-color);
+}
+.row>h1{
+    color: var(--text-color-white);
+    font-family: var(--title-font);
+    display: flex;
+}
+span{
+    color: var(--text-color-pink);
+    margin-left: 1rem;
+}
+.check{
+    color: rgb(48, 48, 202);
+    line-height: 0;
+}
+label{
+    color: var(--text-color-white);
+    font-family: var(--title-font);
+    font-size: 1rem;
+}
+
+button{
+    color: var(--text-color-white);
+    background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%);
+    width: 15rem;
+}
+.btn-primary{
+    border: none;
+    font-family: var(--title-font);
+    font-weight: 700;
+
+}
