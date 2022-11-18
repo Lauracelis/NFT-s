@@ -4,6 +4,7 @@
     --text-color-white:#f9f9f9;
     --text-color-pink:#FF0076;
     --text-color-black: #0b0b0b;
+    --bg-color-some-card:#142442;
   --c2: #590f87;
   --title-color: #02072e;
   --text-color: #666666;
@@ -15,4 +16,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.compRegister{
+  border-top: 1px solid var(--border-color);
+  background-color: var(--bg-color-some-card) ;
+  padding: 4rem 5rem;
+}
+.row>h1{
+  color: var(--text-color-white);
+  font-family: var(--title-font);
+  display: flex;
+}
+label{
+  color: var(--text-color-white);
+  font-family: var(--title-font);
+  font-size: 1rem;
+}
+
+.form-registro__span{
+    color: var(--text-color-pink);
+    margin-left: 1rem;
+}
+.check{
+  color: rgb(48, 48, 202);
+  line-height: 0;
+}
+.btn-form{
+  color: var(--text-color-white);
+    background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%);
+    width: 15rem;
+}
+.btn-primary{
+  border: none;
+  font-family: var(--title-font);
+  font-weight: 700;
 }
