@@ -15,11 +15,14 @@
     padding: 4rem;
     background-color: var(--bg-color);
 }
+
+/*Hechos*/
 .row>h1{
     color: var(--text-color-white);
     font-family: var(--title-font);
     display: flex;
 }
+
 span{
     color: var(--text-color-pink);
     margin-left: 1rem;
@@ -33,12 +36,12 @@ label{
     font-family: var(--title-font);
     font-size: 1rem;
 }
-
 button{
     color: var(--text-color-white);
     background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%);
     width: 15rem;
 }
+
 .btn-primary{
     border: none;
     font-family: var(--title-font);
