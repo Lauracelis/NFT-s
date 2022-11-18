@@ -1,0 +1,13 @@
+:root{
+    --bg-color:#071838;
+    --bg-button: linear-gradient(45deg, rgba(89,15,135,1) 0%, rgba(255,0,118,1) 100%);
+    --text-color-white:#f9f9f9;
+    --text-color-pink:#FF0076;
+    --text-color-black: #0b0b0b;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
